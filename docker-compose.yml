@@ -23,7 +23,7 @@ services:
       - default
 
   cloudflared:
-    image: cloudflare/cloudflared:2023.7.3@sha256:1278c07596b20154931dbf09c26ea8006276ed5444496c5892705fc3accb3cca
+    image: cloudflare/cloudflared:2023.8.2@sha256:93561dfa0032006354be56476f09e3d8743d53d202368672c2847c1631f7be50
     hostname: cloudflared
     container_name: nsws_archive__cloudflared
 
